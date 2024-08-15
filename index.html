@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <title>Missão: Galáxia Perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="intro.jpeg" alt="Imagem de uma nave espacial decolando" width="460" height="320">
+            <p>Você é um explorador espacial que descobriu uma mensagem antiga sobre uma galáxia perdida, cheia de mistérios e tecnologias avançadas. Decidido a encontrar essa galáxia, você inicia sua jornada intergaláctica.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar o Planeta Verde</button>
+            <button class="btn-proximo" data-proximo="2">Investigar o Anel de Saturno</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você pousa no Planeta Verde, onde descobre uma estação espacial abandonada. Em busca de pistas, você encontra dois caminhos possíveis.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar a estação espacial</button>
+            <button class="btn-proximo" data-proximo="4">Voltar à nave e mudar de destino</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No Anel de Saturno, você encontra uma antiga base de pesquisa espacial. A mensagem antiga sugere que o próximo passo é investigar a origem dos sinais encontrados aqui. Qual será sua escolha?</p>
+            <button class="btn-proximo" data-proximo="5">Estudar os sinais de rádio</button>
+            <button class="btn-proximo" data-proximo="6">Explorar a superfície do anel</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Dentro da estação espacial, você encontra um mapa estelar que indica uma rota para a Galáxia Perdida.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Galáxia Perdida</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="retorno.jpeg" alt="Imagem da nave retornando à Terra" width="460" height="320">
+            <p>Você decide voltar para a Terra, questionando o que poderia ter descoberto se tivesse continuado sua missão.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Analisando os sinais de rádio, você descobre uma transmissão criptografada que revela a localização da Galáxia Perdida.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Galáxia Perdida</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando a superfície do anel, você encontra uma estrutura alienígena, mas não há pistas diretas sobre a Galáxia Perdida.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e investigar os sinais de rádio</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na Galáxia Perdida, você encontra um sistema de buracos de minhoca. Agora, precisa decidir qual buraco explorar.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar o buraco de minhoca azul</button>
+            <button class="btn-proximo" data-proximo="10">Explorar o buraco de minhoca vermelho</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Retornando aos sinais de rádio, você consegue decifrar a transmissão completa e encontrar a rota para a Galáxia Perdida.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Galáxia Perdida</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O buraco de minhoca azul leva você a uma cidade alienígena avançada, onde você descobre tecnologias e conhecimentos extraordinários.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade alienígena</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O buraco de minhoca vermelho leva você a uma região desolada e perigosa, sem sinais da cidade alienígena.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o buraco de minhoca azul</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="cidade-alienigena.jpeg" alt="Imagem de uma cidade alienígena com tecnologias avançadas" width="460" height="320">
+            <p>Você explora a cidade alienígena e se depara com maravilhas tecnológicas e um vasto conhecimento sobre o universo.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o buraco de minhoca azul, você finalmente chega à cidade alienígena.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade alienígena</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
